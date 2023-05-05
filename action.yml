@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'Az destroyer of resources'
+inputs:
+  resourceId:  # id of input
+    description: 'Id of resource to delete'
+    required: true
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'deleteResources.js'
