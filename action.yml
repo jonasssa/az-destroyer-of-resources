@@ -1,4 +1,4 @@
-name: 'Hello World'
+name: 'Az destroyer of resources'
 description: 'Az destroyer of resources'
 inputs:
   resourceGroupName:  # id of input
