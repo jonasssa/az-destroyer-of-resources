@@ -1,5 +1,5 @@
 // Load the .env file if it exists
-require("dotenv").config();
+// require("dotenv").config();
 
 const { ResourceManagementClient } = require("@azure/arm-resources");
 const { DefaultAzureCredential } = require("@azure/identity");
@@ -13,5 +13,5 @@ const resourceGroupName = "test2-rg"
 
 const client = new ResourceManagementClient(credential, subscriptionId);
 
-const response = client.resourceGroups.beginDelete(resourceGroupName).then(console.log)
+const response = client.resourceGroups.createOrUpdate(resourceGroupName).then(console.log)
 console.log(response)

@@ -1,7 +1,7 @@
 name: 'Hello World'
 description: 'Az destroyer of resources'
 inputs:
-  resourceId:  # id of input
+  resourceGroupName:  # id of input
     description: 'Id of resource to delete'
     required: true
     default: ''
