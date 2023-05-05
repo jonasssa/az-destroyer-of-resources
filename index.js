@@ -1,5 +1,5 @@
 // Load the .env file if it exists
-// require("dotenv").config();
+require("dotenv").config();
 
 const { ResourceManagementClient } = require("@azure/arm-resources");
 const { DefaultAzureCredential } = require("@azure/identity");
