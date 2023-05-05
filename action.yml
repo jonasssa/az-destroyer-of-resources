@@ -4,10 +4,10 @@ inputs:
   resourceId:  # id of input
     description: 'Id of resource to delete'
     required: true
-    default: 'World'
+    default: ''
 outputs:
   time: # id of output
     description: 'The time we greeted you'
 runs:
   using: 'node16'
-  main: 'deleteResources.js'
+  main: 'index.js'
